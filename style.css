@@ -8,11 +8,10 @@
 
 
 body {
-	
 	font-family: "Optimus Princeps Semi Bold", Helvetica, Arial, sans-serif;
 	font-size: 15px;
-	margin: 0px;
 	padding: 0px;
+	margin: 0px;
 }
 
 aside {
@@ -70,6 +69,8 @@ nav ul {
 nav {
 	width: 100%;
 	background-color: RGB(171, 196, 249);
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 nav a {
@@ -112,20 +113,65 @@ nav a {
         background-color: RGBa(228, 77, 38, 0.15);
 }
 
+section {
 
-article.right {
+	border: 1px inset #e5e7e9;
+	background-color: #e5e7e9;
+	border-radius: 15px;
+	height:50%
+}
 
+article {
+
+	border: 5px outset #FFF;
+	height: 49%;
+	width: 49%;	
 	border-bottom: 10px solid #AAA;
 }
 
-.left {
-
-	text-align: left;
+#experience {
+	
+	position: relative;
+	bottom: 340px;
+	left: 643px;
 }
 
-.right {
+#competences {
 
-	text-align: right;
+	position: relative;
+	top: 67px;
+	left: 2px;
+	padding-bottom: 33px;
+}
+
+#information{
+
+	position: relative;
+	bottom: 260px;
+	left: 2px;
+	padding-bottom: 24px;
+
+}
+
+#contact{
+
+	position: relative;
+	bottom: 584px;
+	left: 643px;
+}
+
+
+.image-contact{
+
+	border: 2px dashed white;
+        height: 5%;
+        width: 5%;
+
+}
+
+.titre-article {
+
+	text-align:center;
 }
 
 #small {
