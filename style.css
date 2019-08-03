@@ -12,6 +12,7 @@ body {
 	font-size: 15px;
 	padding: 0px;
 	margin: 0px;
+
 }
 
 aside {
@@ -22,23 +23,27 @@ aside {
 }
 
 h1 {
-	
-	font-size: 50 px;
+	font-size: 60 px;
 	font-weight: normal;
+	color: #EB0000;
 }
 
 #photo-CV {
-	
+	margin-left: 1130px;	
+	width: 140px;
 	height: 140px;
-	position: absolute;
-	bottom : 455px;
-	left: 1132px;
 	border: 5px solid #000;
 	
 }
 
-header {
+.titre1 {
 
+	margin-top: -147px;
+}
+
+header {
+	background-image: url("images/FondHeader.jpg");
+	background-size: 80%;
 	height: 150px;
 	border: 2px inset #AAA;
 }
@@ -48,9 +53,8 @@ footer {
 	height: 70px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-
 	text-align: center;
-	background-color: #C5C5C5;
+	background-color: #FDE9E0;
 
 }
 
@@ -114,52 +118,50 @@ nav a {
 }
 
 section {
-
 	border: 1px inset #e5e7e9;
 	background-color: #e5e7e9;
 	border-radius: 15px;
-	height:50%
+	background-image: url("images/FondCV.jpg");
+	background-size: 80%;
 }
 
 article {
-
-	border: 5px outset #FFF;
-	height: 49%;
-	width: 49%;	
+	display: inline-block;
+	width: 50%;
+	height:50%;
+	border: 5px outset #FFF;	
 	border-bottom: 10px solid #AAA;
 }
 
-#experience {
-	
-	position: relative;
-	bottom: 340px;
-	left: 643px;
+#competences{
+	margin-top: 50px;
+	width: 600px;
+	height: 380px;
+	background-color: RGB(64, 200, 13);
 }
 
-#competences {
-
-	position: relative;
-	top: 67px;
-	left: 2px;
-	padding-bottom: 33px;
+#experience{
+	margin-left: 55px;
+	margin-bottom: 20px;
+	padding-bottom: 75px;
+	width: 600px;
+	height: 410px;
+	background-color: RGB(241, 211, 79);
 }
 
 #information{
-
-	position: relative;
-	bottom: 260px;
-	left: 2px;
-	padding-bottom: 24px;
-
+	margin-top: 50px;
+	width: 600px;
+	height: 300px;
+	background-color: RGB(0, 112, 192);
 }
 
 #contact{
-
-	position: relative;
-	bottom: 584px;
-	left: 643px;
+	margin-left: 670px;
+	width: 600px;
+	height: 322px;
+	background-color: RGB(228, 77, 38);
 }
-
 
 .image-contact{
 
@@ -176,5 +178,19 @@ article {
 
 #small {
 
-	font-size: small;
+	font-size: 20px;	
+}
+
+.titre-article {
+	color: #EB0000
+}
+
+thead {
+	text-decoration: underline black;
+}
+
+
+.YesWeWeb {
+	text-decoration: none;
+	color: rgb(255, 140, 0);
 }
