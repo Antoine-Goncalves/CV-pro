@@ -1,0 +1,134 @@
+/* CSS Document */
+
+@font-face {
+
+	font-family: "Optimus Princeps Semi Bold";
+	src: url("OptimusPrincepsSemiBold.ttf");
+}
+
+
+body {
+	
+	font-family: "Optimus Princeps Semi Bold", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+aside {
+	position: fixed;
+	top: 550px;
+	left: 1230px;
+
+}
+
+h1 {
+	
+	font-size: 50 px;
+	font-weight: normal;
+}
+
+#photo-CV {
+	
+	height: 140px;
+	position: absolute;
+	bottom : 455px;
+	left: 1132px;
+	border: 5px solid #000;
+	
+}
+
+header {
+
+	height: 150px;
+	border: 2px inset #AAA;
+}
+
+footer {
+
+	height: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	text-align: center;
+	background-color: #C5C5C5;
+
+}
+
+nav li {
+
+	list-style-type : none;
+	float: left;
+}
+
+nav ul {
+
+	margin: 0px;
+	padding: 0px;
+}
+
+nav {
+	width: 100%;
+	background-color: RGB(171, 196, 249);
+}
+
+nav a {
+
+	display :inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: RGB(3, 24, 237);
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.menu {
+
+	display: table;
+	margin: 0 auto;
+}
+
+.menu-competence:hover {
+
+	border-top: 5px solid #4c8;
+	background-color: RGBa(64, 200, 13, 0.15);
+}
+
+.menu-experience:hover {
+
+        border-top: 5px solid #f1dc4f;
+        background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.menu-information:hover {
+
+        border-top: 5px solid #0070bb;
+        background-color: RGBa(0, 112, 192, 0.15);
+}
+
+.menu-contact:hover {
+
+        border-top: 5px solid #e44d26;
+        background-color: RGBa(228, 77, 38, 0.15);
+}
+
+
+article.right {
+
+	border-bottom: 10px solid #AAA;
+}
+
+.left {
+
+	text-align: left;
+}
+
+.right {
+
+	text-align: right;
+}
+
+#small {
+
+	font-size: small;
+}
