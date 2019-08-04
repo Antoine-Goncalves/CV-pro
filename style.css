@@ -8,17 +8,17 @@
 	src: url("OptimusPrincepsSemiBold.ttf");
 }
 
-/* FIN TELECHARGEMENT POUR LA PAGE
+/* FIN TELECHARGEMENT POUR LA PAGE */
 
 
 /* PARTIE BODY */
 
 body {     /* Balise body */
 	font-family: "Optimus Princeps Semi Bold", Helvetica, Arial, sans-serif;     /* Liste de police à utiliser */
-	font-size: 15px;     /* Taille de fonte de l'élément body */
-	padding: 0px;     
+	font-size: 0.9rem;     /* Taille de fonte de l'élément body */
+	padding: 0rem;     
 			     /* On initialise les marges pour que tout soit bien à la même place */
-	margin: 0px;
+	margin: 0rem;
 }
 
 /* FIN DE LA PARTIE BODY */ 
@@ -28,29 +28,29 @@ body {     /* Balise body */
 
 header {     /* Entête */
         background-color: RGB(171, 196, 249);     /* Couleur de fond pour le header */
-        height: 150px;
+        height: 9.3rem;
         border: 2px inset #AAA;
 }
 
 #photo-CV {     /* La photo du CV avec indicateur (id) photo-CV */
-        margin-left: 1130px;     /* Décale l'élément avec la marge extérieure gauche */
-        width: 140px;     /* Taille de la largeur de l'élément */
-        height: 140px;     /* Taille de la hauteur de l'élément */
+        margin-left: 70.6rem;     /* Décale l'élément avec la marge extérieure gauche */
+        width: 8.75rem;     /* Taille de la largeur de l'élément */
+        height: 8.75rem;     /* Taille de la hauteur de l'élément */
         border: 5px solid #000;     /* Ajout de bordure tout autour de l'élément */
 }
 
 h1 {
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: bold;     /* Permet de choisir la graisse pour h1 */
         color: #EB0000;     /* Choix de la couleur */
 }
 
 .titre1 {     /* Le titre principal du CV avec une classe titre1 */
-        margin-top: -147px;     /* Décale l'élement avec la marge extérieure vers le haut */
+        margin-top: -9.1rem;     /* Décale l'élement avec la marge extérieure vers le haut */
 }
 
 #small {
-        font-size: 20px;
+        font-size: 1.25rem;
 }
 
 /* FIN DE LA PARTIE HEADER */
@@ -61,8 +61,8 @@ h1 {
 nav {
         width: 100%;
         background-color: RGB(171, 196, 249);
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 1.25rem;
+        padding-top: 1.25rem;
 }
 
 nav li {
@@ -71,17 +71,17 @@ nav li {
 }
 
 nav ul {
-        margin: 0px;
-        padding: 0px;
+        margin: 0rem;
+        padding: 0rem;
 }
 
 nav a {
         display :inline-block;     /* Permet un affiche sur une même ligne en blocs */
         text-decoration: none;     /* Permet de n'avoir aucune décoration sur son texte */
-        padding: 20px 30px;
+        padding: 1.25rem 1.87rem/*20px 30px*/;
         color: RGB(3, 24, 237);
         text-transform: uppercase;     /* Permet de transformer son texte (ici le texte est écrit en majuscule */
-        font-size: 15px;
+        font-size: 0.93rem;
 }
 
 .menu {
@@ -116,9 +116,9 @@ nav a {
 
 aside {
         position: fixed;     /* La position d'aside est fixe elle ne bougera pas malgré le scrool de la page */
-        top: 550px;
+        top: 34.37rem;
                              /* Positionnement pour qu'elle se mette en bas à droite */
-        left: 1230px;
+        left: 76.87rem;
 }
 
 /* FIN PARTIE ASIDE */
@@ -158,9 +158,9 @@ article {
 	/* PARTIE ARTICLE COMPETENCES */
 
 #competences{
-	margin-top: 50px; 
-	width: 600px;
-	height: 380px;
+	margin-top: 3.12rem; 
+	width: 37.5rem;
+	height: 23.75rem;
 	background-color: RGB(96, 245, 103);     /* Plusieurs type d'écriture pour les couleurs le rgb en est une */
 }
 
@@ -170,11 +170,11 @@ article {
 	/* PARTIE ARTICLE EXPERIENCES */
 
 #experience{
-	margin-left: 58px;
-	margin-bottom: 20px;
-	padding-bottom: 80px;    /* Décale la marge intérieure vers le bas */
-	width: 600px;
-	height: 410px;
+	margin-left: 3.6rem;
+	margin-bottom: 1.25rem;
+	padding-bottom: 5rem;    /* Décale la marge intérieure vers le bas */
+	width: 37.5rem;
+	height: 25.62rem;
 	background-color: RGB(241, 211, 79);
 }
 
@@ -188,10 +188,10 @@ thead {
 	/* PARTIE ARTICLE INFORMATIONS */
 
 #information{
-	padding-bottom: 2px;	
-	margin-top: 50px;
-	width: 600px;
-	height: 300px;
+	padding-bottom: 0.12rem;	
+	margin-top: 3.12rem;
+	width: 37.5rem;
+	height: 18.75rem;
 	background-color: RGB(0, 112, 192);
 }
 
@@ -210,15 +210,15 @@ thead {
 	/* PARTIE ARTICLE CONTACT */
 
 #contact{
-	margin-left: 672px;
-	margin-bottom: 50px;
-	width: 600px;
-	height: 322px;
+	margin-left: 42rem;
+	margin-bottom: 3.12rem;
+	width: 37.5rem;
+	height: 20.12rem;
 	background-color: RGB(228, 77, 38);
 }
 
 .image-contact{
-	margin-right: 20px;
+	margin-right: 1.25rem;
 	border: 2px dashed white;     /* Les bordures seront fait avec des tirets */
         height: 5%;
         width: 5%;
@@ -231,15 +231,16 @@ thead {
 
 	/* FIN PARTIE ARTICLE CONTACT*/
 
+/* FIN PARTIE ARTICLE* /
 
-	/* PARTIE FOOTER */
+/* PARTIE FOOTER */
 
 footer {     /* Pied de page */
-        height: 70px;
-        padding-top: 30px;     /* Décale l'élément avec la marge intérieure vers le haut */
-        padding-bottom: 30px;     /* La même chose qu'au dessus mais vers le bas */
+        height: 4.37rem;
+        padding-top: 1.87rem;     /* Décale l'élément avec la marge intérieure vers le haut */
+        padding-bottom: 1.87rem;     /* La même chose qu'au dessus mais vers le bas */
         text-align: center;     /* Alignement du texte au centre */
         background-color: #FDE9E0;
 }
 
-	/* FIN PARTIE FOOTER */
+/* FIN PARTIE FOOTER */
