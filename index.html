@@ -1,68 +1,76 @@
 <!doctype html>
+
 <html lang="fr">
+
 <head>
   
 	<meta charset="utf-8">
   
   	<meta name="auteur" content="Antoine Goncalves CV">
 
-  	<title>CV Antoine Goncalves</title>
+	<title>CV Antoine Goncalves</title>    <!-- Titre de la page -->
   
-  	<link rel="icon" href="images/Favicon.png" />
+	<link rel="icon" href="images/Favicon.png" />
 
-  	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">     <!-- Lien pour le fichier CSS -->
 
 </head>
 
 <body>
-	<header id="top">
-		<img id="photo-CV" src="images/Photo.webp" alt="Photo Perso"/>
-		<h1 class="titre1"> <strong>Antoine Goncalves <br> Dev Web Junior</strong> </h1>
-		<small id="small"> 23 ans <br> Permis B + Véhicule à disposition </small>
+	<header id="top">     <!-- Entête du CV -->
+
+		<img id="photo-CV" src="images/Photo.webp" alt="Photo Perso"/>     <!-- Photo d'un ordinateur ( en attendant la mienne ) du CV -->
+		
+		<h1 class="titre1"> <strong>Antoine Goncalves <br> Dev Web Junior</strong> </h1>     <!-- Titre principal de la page -->
+		
+		<small id="small"> 23 ans <br> Permis B + Véhicule à disposition </small>     <!-- Précision pour mon entête -->
+	
 	</header>
 	
-	<nav>
+	<nav>     <!-- Navigateur pour pouvoir faciliter la lecture du site -->
+		
 		<div class="menu">
-			<ul>
+			
+		<ul>     <!-- Création d'une liste à puces -->
+
 				<li class="menu-competence">
 
 					<a href="#competence">Compétences</a>
-				
 				</li>
 				
 				<li class="menu-experience">
 
 					<a href="#experience">Expériences Professionnelles</a>
-				
 				</li>
 				
 				<li class="menu-information">
 
 					<a href="#information">À propos de moi</a>
-
 				</li>
 
 				<li class="menu-contact">
 
 					<a href="#contact">Contactez-moi !</a>
-
 				</li>
 			</ul>
 		</div>
 
 	</nav>
 
-	<aside>
+	<aside>     <!-- Création d'un aparté pour pouvoir si l'ont ai en bas de page remonter directement -->
+		
 		<div id="ScrollUp">
+			
 			<a href="#top"><img src="images/ScroolUp.png" alt="ScroolUp"/></a>
 		</div>
+	
 	</aside>
 	
-	<section class="contenu-cv">
+	<section class="contenu-cv">     <!-- Création d'une section pour pouvoir ranger mes articles dedans -->
 
-		<article id="competences">
+	<article id="competences">     <!-- 1er article pour parler de mes competences -->
 			
-			<h2 class="titre-article"> <strong>Compétences</strong> </h2>
+		<h2 class="titre-article"> <strong>Compétences</strong> </h2>     <!-- Titre pour les articles -->
 			
 			<h4 class="sous-titre-article">Compétences Techniques</h4>
 			
@@ -74,7 +82,7 @@
 				<li class="mot-important">PHP (découverte)</li>
 			</ul>
 
-			<h4 class="sous-titre-article">Compétences Personelles</h4>
+			<h4 class="sous-titre-article">Compétences Personnelles</h4>
 		
 			<ul>
 				<li class="mot-important">Créatif</li>
@@ -83,13 +91,15 @@
 				<li class="mot-important">Organisation</li>
 				<li class="mot-important">Sourire et Tenue soignée</li>
 			</ul>
+
 		</article>
 
-		<article id="experience">
+		<article id="experience">     <!-- 2ème article pour parler de mes experiences -->
 
 			<h2 class="titre-article"> <strong>Expériences Professionnelles</strong> </h2>
 
-			<table>
+			<table>     <!-- Création d'un tableau pour mes expériences -->
+
 				<caption class="sous-titre-article"><h4 class="sous-titre-article">Expériences Professionnelles</h4></caption>
 
 				<thead class="entête-tableau">
@@ -100,7 +110,9 @@
     						<td>Entreprise</td>
     						<td>Tâches</td>
  					</tr>
+
 				</thead>
+
 				<tbody class="corps-tableau">
 
   					<tr>
@@ -116,10 +128,13 @@
     						<td class="entreprise">Décathlon Lompret</td>
   			      			<td class="tâches">Delai de livraison, Contact Client, Travail d'équipe</td>
 					</tr>
+				
 				</tbody>
+
 			</table>
 
-			<table>
+			<table>     <!-- 2ème tableau pour mes formations -->
+
 				<caption class="sous-titre-article"><h4 class="sous-titre-article">Formation</h4></caption>
 
                                 <thead class="entête-tableau">
@@ -130,8 +145,10 @@
                                                 <td>École</td>
 						<td>Ville</td>
                                         </tr>
-                                </thead>
-                                <tbody class="corps-tableau">
+                                
+				</thead>
+                                
+				<tbody class="corps-tableau">
 
                                         <tr>
                                                 <td class="Date">Septembre 2016 - Juin 2018</td>
@@ -160,19 +177,23 @@
 						<td class="École">Collège Rouget De Lisle</td>
 						<td class="Ville">Charleville-Mézières</td>
                                         </tr>
-                                </tbody>
-                        </table>
+                                
+				</tbody>
+                        
+			</table>
 
 		</article>
 
-		<article id="information">
+		<article id="information">     <!-- 3ème article à propos de moi ( mes informations ) -->
 
 			<h2 class="titre-article"> <strong>À propos de moi</strong> </h2>
 			
 			<h4 class="sous-titre-article">Présentation</h4>
-			<p><strong>Developpeur Web Junior</strong> , voulant mettre à profit mes connaissances acquis grâce à la formation <a class="YesWeWeb" href="http://www.groupevitaminet.com/trouvez-futur-metier-formation-developpeur-se-web-de-yes-we-web/" target="_blank"><b>Yes We Web</b></a> malgré mon peu d'expérience. Sérieux et Motivé , faite moi confiance et vous ne le regretterez pas ! </p>
+
+			<p id="dev-web"><strong>Developpeur Web Junior</strong> , voulant mettre à profit mes connaissances acquis durant la formation <a class="YesWeWeb" href="http://www.groupevitaminet.com/trouvez-futur-metier-formation-developpeur-se-web-de-yes-we-web/" target="_blank"><b>Yes We Web</b></a> malgré mon peu d'expérience. Sérieux et Motivé , faites moi confiance et vous ne le regretterez pas ! </p>
 
 			<h4 class="sous-titre-article">Hobbies</h4>
+			
 			<ul>
 				<li>Football, pour le travail d'équipe et la cohésion de groupe</li>
 				<li>Musculation, pour le bien-être et l'hygiène de vie</li>
@@ -181,15 +202,16 @@
 
 		</article>
 
-		<article id="contact">
+		<article id="contact">     <!-- Dernier article pour me contacter -->
 
 			<h2 class="titre-article"> <strong>Contactez-moi</strong> </h2>
 
-			<p><img class="image-contact" src="images/Adresse.png" alt="Adresse"> 78 rue du Docteur Calmette , Appartement 2 <br> 59120 Loos </p> <br>
-			<p><img class="image-contact" src="images/Telephone.png" alt="Telephone"> 07.77.00.72.65 </p> <br>
-			<p><img class="image-contact" src="images/Gmail.png" alt="Gmail"> goncalves.devweb@gmail.com </p>
+			<p class="info-perso"><img class="image-contact" src="images/Adresse.png" alt="Adresse"> 78 rue du Docteur Calmette , Appartement 2 <br> 59120 Loos </p> <br>
+			<p class="info-perso"><img class="image-contact" src="images/Telephone.png" alt="Telephone"> 07.77.00.72.65 </p> <br>
+			<p class="info-perso"><img class="image-contact" src="images/Gmail.png" alt="Gmail"> goncalves.devweb@gmail.com </p>
 
 		</article>
+
 	</section>
 	
 	<footer>
@@ -200,7 +222,8 @@
 	
 		<a href="https://github.com/Antoine-Goncalves" target="_blank"><img src="images/Github.png" alt="Github"></a>
 		
-		<p> Mes liens professionelles ci-dessus </p>
+		<p> Mes liens professionelles ci-dessus </p>     <!-- Mes liens pro pour pouvoir être disponibles pour les recruteurs -->
+	
 	</footer>
   
 </body>
