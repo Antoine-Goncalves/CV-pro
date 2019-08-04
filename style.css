@@ -1,10 +1,17 @@
 /* CSS Document */
 
+
+/* TELECHARGEMENT POUR MA PAGE */
+
 @font-face {     /* Insertion d'une police d'écriture que j'ai choisi */ 
 	font-family: "Optimus Princeps Semi Bold";
 	src: url("OptimusPrincepsSemiBold.ttf");
 }
 
+/* FIN TELECHARGEMENT POUR LA PAGE
+
+
+/* PARTIE BODY */
 
 body {     /* Balise body */
 	font-family: "Optimus Princeps Semi Bold", Helvetica, Arial, sans-serif;     /* Liste de police à utiliser */
@@ -14,78 +21,77 @@ body {     /* Balise body */
 	margin: 0px;
 }
 
-aside {
-	position: fixed;     /* La position d'aside est fixe elle ne bougera pas malgré le scrool de la page */
-	top: 550px;
-			     /* Positionnement pour qu'elle se mette en bas à droite */
-	left: 1230px;
-}
+/* FIN DE LA PARTIE BODY */ 
 
-h1 {
-	font-size: 32px;
-	font-weight: bold;     /* Permet de choisir la graisse pour h1 */ 
-	color: #EB0000;     /* Choix de la couleur */
+
+/* PARTIE HEADER */
+
+header {     /* Entête */
+        background-color: RGB(171, 196, 249);     /* Couleur de fond pour le header */
+        height: 150px;
+        border: 2px inset #AAA;
 }
 
 #photo-CV {     /* La photo du CV avec indicateur (id) photo-CV */
-	margin-left: 1130px;     /* Décale l'élément avec la marge extérieure gauche */
-	width: 140px;     /* Taille de la largeur de l'élément */
-	height: 140px;     /* Taille de la hauteur de l'élément */
-	border: 5px solid #000;     /* Ajout de bordure tout autour de l'élément */	
+        margin-left: 1130px;     /* Décale l'élément avec la marge extérieure gauche */
+        width: 140px;     /* Taille de la largeur de l'élément */
+        height: 140px;     /* Taille de la hauteur de l'élément */
+        border: 5px solid #000;     /* Ajout de bordure tout autour de l'élément */
+}
+
+h1 {
+        font-size: 32px;
+        font-weight: bold;     /* Permet de choisir la graisse pour h1 */
+        color: #EB0000;     /* Choix de la couleur */
 }
 
 .titre1 {     /* Le titre principal du CV avec une classe titre1 */
-	margin-top: -147px;     /* Décale l'élement avec la marge extérieure vers le haut */
+        margin-top: -147px;     /* Décale l'élement avec la marge extérieure vers le haut */
 }
 
-header {     /* Entête */
-	background-color: RGB(171, 196, 249);     /* Couleur de fond pour le header */
-	height: 150px;
-	border: 2px inset #AAA;
+#small {
+        font-size: 20px;
 }
 
-footer {     /* Pied de page */
-	height: 70px;
-	padding-top: 30px;     /* Décale l'élément avec la marge intérieure vers le haut */
-	padding-bottom: 30px;     /* La même chose qu'au dessus mais vers le bas */
-	text-align: center;     /* Alignement du texte au centre */
-	background-color: #FDE9E0;
+/* FIN DE LA PARTIE HEADER */
+
+
+/* PARTIE NAV */
+
+nav {
+        width: 100%;
+        background-color: RGB(171, 196, 249);
+        padding-bottom: 20px;
+        padding-top: 20px;
 }
 
 nav li {
-	list-style-type : none;     /* permet de définir l'apparence de la puce ( ici rien du tout ) */
-	float: left;     /* Placement sur le côté gauche pour pouvoir les aligner */ 
+        list-style-type : none;     /* permet de définir l'apparence de la puce ( ici rien du tout ) */
+        float: left;     /* Placement sur le côté gauche pour pouvoir les aligner */
 }
 
 nav ul {
-	margin: 0px;
-	padding: 0px;
-}
-
-nav {
-	width: 100%;
-	background-color: RGB(171, 196, 249);
-	padding-bottom: 20px;
-	padding-top: 20px;
+        margin: 0px;
+        padding: 0px;
 }
 
 nav a {
-	display :inline-block;     /* Permet un affiche sur une même ligne en blocs */
-	text-decoration: none;     /* Permet de n'avoir aucune décoration sur son texte */
-	padding: 20px 30px;
-	color: RGB(3, 24, 237);
-	text-transform: uppercase;     /* Permet de transformer son texte (ici le texte est écrit en majuscule */
-	font-size: 15px;
+        display :inline-block;     /* Permet un affiche sur une même ligne en blocs */
+        text-decoration: none;     /* Permet de n'avoir aucune décoration sur son texte */
+        padding: 20px 30px;
+        color: RGB(3, 24, 237);
+        text-transform: uppercase;     /* Permet de transformer son texte (ici le texte est écrit en majuscule */
+        font-size: 15px;
 }
 
 .menu {
-	display: table;     /* Permet un affiche en forme de tableau pour faire plus propre */
-	margin: 0 auto;     /* Permet de le centrer directement avec auto */
+        display: table;     /* Permet un affiche en forme de tableau pour faire plus propre */
+        margin: 0 auto;     /* Permet de le centrer directement avec auto */
 }
 
 .menu-competence:hover {     /* Permet de spécifier l'apparence quand on le survole */
-	border-top: 5px solid #4c8;     /* Permet d'avoir la couleur du block en question sur le haut */
-	background-color: RGBa(64, 200, 13, 0.15);
+        border-top: 5px solid #4c8;     /* Permet d'avoir la couleur du block en question sur le haut */
+        background-color: RGBa(64, 200, 13, 0.15);
 }
 
 .menu-experience:hover {
@@ -103,6 +109,23 @@ nav a {
         background-color: RGBa(228, 77, 38, 0.15);
 }
 
+/* FIN PARTIE NAV */
+
+
+/* PARTIE ASIDE */
+
+aside {
+        position: fixed;     /* La position d'aside est fixe elle ne bougera pas malgré le scrool de la page */
+        top: 550px;
+                             /* Positionnement pour qu'elle se mette en bas à droite */
+        left: 1230px;
+}
+
+/* FIN PARTIE ASIDE */
+
+
+/* PARTIE SECTION */
+
 section {
 	border: 1px inset #e5e7e9;
 	background-color: #e5e7e9;
@@ -110,6 +133,10 @@ section {
 	background-image: url("images/FondCV.jpg");     /* Permet d'avoir une image de fond */
 	background-size: 80%;     /* Permet de choisir la taille de cette image de fond */
 }
+
+/* FIN PARTIE SECTION */
+
+/* PARTIE ARTICLE */
 
 article {
 	font-size: medium;    /* Taille de fonte medium */
@@ -120,12 +147,27 @@ article {
 	border-bottom: 10px solid #AAA;
 }
 
+.titre-article,.sous-titre-article{
+        text-align: center;
+}
+
+.titre-article {
+        color: #EB0000;
+}
+
+	/* PARTIE ARTICLE COMPETENCES */
+
 #competences{
 	margin-top: 50px; 
 	width: 600px;
 	height: 380px;
 	background-color: RGB(96, 245, 103);     /* Plusieurs type d'écriture pour les couleurs le rgb en est une */
 }
+
+	/* FIN PARTIE ARTICLE COMPETENCES */
+
+
+	/* PARTIE ARTICLE EXPERIENCES */
 
 #experience{
 	margin-left: 55px;
@@ -136,6 +178,15 @@ article {
 	background-color: RGB(241, 211, 79);
 }
 
+thead {
+        text-decoration: underline black;     /* Le texte sera souligné en noir */
+}
+
+	/* FIN PARTIE ARTICLE EXPERIENCES */
+
+	
+	/* PARTIE ARTICLE INFORMATIONS */
+
 #information{
 	padding-bottom: 2px;	
 	margin-top: 50px;
@@ -144,8 +195,23 @@ article {
 	background-color: RGB(0, 112, 192);
 }
 
+.YesWeWeb {
+        text-decoration: none;
+        color: rgb(255, 140, 0);
+}
+
+#dev-web::first-letter {
+        font-size: 2rem;
+}
+
+	/* FIN PARTIE ARTICLE INFORMATIONS */
+
+	
+	/* PARTIE ARTICLE CONTACT */
+
 #contact{
 	margin-left: 670px;
+	margin-bottom: 50px;
 	width: 600px;
 	height: 322px;
 	background-color: RGB(228, 77, 38);
@@ -158,33 +224,22 @@ article {
         width: 5%;
 }
 
-#small {
-	font-size: 20px;	
-}
-
-.titre-article,.sous-titre-article{
-	text-align: center;
-}
-
-.titre-article {
-	color: #EB0000;
-}
-
-thead {
-	text-decoration: underline black;     /* Le texte sera souligné en noir */
-}
-
-
-.YesWeWeb {
-	text-decoration: none;
-	color: rgb(255, 140, 0);
-}
-
 .info-perso {
-	font-size: large;
-	text-align: center;
+        font-size: large;
+        text-align: center;
 }
 
-#dev-web::first-letter {
-	font-size: 2rem;
+	/* FIN PARTIE ARTICLE CONTACT*/
+
+
+	/* PARTIE FOOTER */
+
+footer {     /* Pied de page */
+        height: 70px;
+        padding-top: 30px;     /* Décale l'élément avec la marge intérieure vers le haut */
+        padding-bottom: 30px;     /* La même chose qu'au dessus mais vers le bas */
+        text-align: center;     /* Alignement du texte au centre */
+        background-color: #FDE9E0;
 }
+
+	/* FIN PARTIE FOOTER */
