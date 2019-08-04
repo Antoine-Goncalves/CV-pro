@@ -42,7 +42,7 @@ h1 {
 }
 
 header {
-	background-image: url("images/FondHeader.jpg");
+	background-color: RGB(171, 196, 249);
 	background-size: 80%;
 	height: 150px;
 	border: 2px inset #AAA;
@@ -137,7 +137,7 @@ article {
 	margin-top: 50px;
 	width: 600px;
 	height: 380px;
-	background-color: RGB(64, 200, 13);
+	background-color: RGB(96, 245, 103);
 }
 
 #experience{
