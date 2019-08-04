@@ -1,71 +1,63 @@
 /* CSS Document */
 
-@font-face {
-
+@font-face {     /* Insertion d'une police d'écriture que j'ai choisi */ 
 	font-family: "Optimus Princeps Semi Bold";
 	src: url("OptimusPrincepsSemiBold.ttf");
 }
 
 
-body {
-	font-family: "Optimus Princeps Semi Bold", Helvetica, Arial, sans-serif;
-	font-size: 15px;
-	padding: 0px;
+body {     /* Balise body */
+	font-family: "Optimus Princeps Semi Bold", Helvetica, Arial, sans-serif;     /* Liste de police à utiliser */
+	font-size: 15px;     /* Taille de fonte de l'élément body */
+	padding: 0px;     
+			     /* On initialise les marges pour que tout soit bien à la même place */
 	margin: 0px;
-
 }
 
 aside {
-	position: fixed;
+	position: fixed;     /* La position d'aside est fixe elle ne bougera pas malgré le scrool de la page */
 	top: 550px;
+			     /* Positionnement pour qu'elle se mette en bas à droite */
 	left: 1230px;
-
 }
 
 h1 {
 	font-size: 32px;
-	font-weight: normal;
-	color: #EB0000;
+	font-weight: bold;     /* Permet de choisir la graisse pour h1 */ 
+	color: #EB0000;     /* Choix de la couleur */
 }
 
-#photo-CV {
-	margin-left: 1130px;	
-	width: 140px;
-	height: 140px;
-	border: 5px solid #000;
-	
+#photo-CV {     /* La photo du CV avec indicateur (id) photo-CV */
+	margin-left: 1130px;     /* Décale l'élément avec la marge extérieure gauche */
+	width: 140px;     /* Taille de la largeur de l'élément */
+	height: 140px;     /* Taille de la hauteur de l'élément */
+	border: 5px solid #000;     /* Ajout de bordure tout autour de l'élément */	
 }
 
-.titre1 {
-
-	margin-top: -147px;
+.titre1 {     /* Le titre principal du CV avec une classe titre1 */
+	margin-top: -147px;     /* Décale l'élement avec la marge extérieure vers le haut */
 }
 
-header {
-	background-color: RGB(171, 196, 249);
-	background-size: 80%;
+header {     /* Entête */
+	background-color: RGB(171, 196, 249);     /* Couleur de fond pour le header */
 	height: 150px;
 	border: 2px inset #AAA;
 }
 
-footer {
-
+footer {     /* Pied de page */
 	height: 70px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	text-align: center;
+	padding-top: 30px;     /* Décale l'élément avec la marge intérieure vers le haut */
+	padding-bottom: 30px;     /* La même chose qu'au dessus mais vers le bas */
+	text-align: center;     /* Alignement du texte au centre */
 	background-color: #FDE9E0;
-
 }
 
 nav li {
-
-	list-style-type : none;
-	float: left;
+	list-style-type : none;     /* permet de définir l'apparence de la puce ( ici rien du tout ) */
+	float: left;     /* Placement sur le côté gauche pour pouvoir les aligner */ 
 }
 
 nav ul {
-
 	margin: 0px;
 	padding: 0px;
 }
@@ -78,41 +70,35 @@ nav {
 }
 
 nav a {
-
-	display :inline-block;
-	text-decoration: none;
+	display :inline-block;     /* Permet un affiche sur une même ligne en blocs */
+	text-decoration: none;     /* Permet de n'avoir aucune décoration sur son texte */
 	padding: 20px 30px;
 	color: RGB(3, 24, 237);
-	text-transform: uppercase;
+	text-transform: uppercase;     /* Permet de transformer son texte (ici le texte est écrit en majuscule */
 	font-size: 15px;
 }
 
 .menu {
-
-	display: table;
-	margin: 0 auto;
+	display: table;     /* Permet un affiche en forme de tableau pour faire plus propre */
+	margin: 0 auto;     /* Permet de le centrer directement avec auto */
 }
 
-.menu-competence:hover {
-
-	border-top: 5px solid #4c8;
+.menu-competence:hover {     /* Permet de spécifier l'apparence quand on le survole */
+	border-top: 5px solid #4c8;     /* Permet d'avoir la couleur du block en question sur le haut */
 	background-color: RGBa(64, 200, 13, 0.15);
 }
 
 .menu-experience:hover {
-
         border-top: 5px solid #f1dc4f;
         background-color: RGBa(241, 211, 79, 0.15);
 }
 
 .menu-information:hover {
-
         border-top: 5px solid #0070bb;
         background-color: RGBa(0, 112, 192, 0.15);
 }
 
 .menu-contact:hover {
-
         border-top: 5px solid #e44d26;
         background-color: RGBa(228, 77, 38, 0.15);
 }
@@ -120,36 +106,38 @@ nav a {
 section {
 	border: 1px inset #e5e7e9;
 	background-color: #e5e7e9;
-	border-radius: 15px;
-	background-image: url("images/FondCV.jpg");
-	background-size: 80%;
+	border-radius: 15px;     /* Permet l'arrondissement des bordures */
+	background-image: url("images/FondCV.jpg");     /* Permet d'avoir une image de fond */
+	background-size: 80%;     /* Permet de choisir la taille de cette image de fond */
 }
 
 article {
+	font-size: medium;    /* Taille de fonte medium */
 	display: inline-block;
 	width: 50%;
 	height:50%;
-	border: 5px outset #FFF;	
+	border: 5px outset #FFF;     /* Ajout de bordure pour article avec un effet 3D qui fait ressortir la boîte */
 	border-bottom: 10px solid #AAA;
 }
 
 #competences{
-	margin-top: 50px;
+	margin-top: 50px; 
 	width: 600px;
 	height: 380px;
-	background-color: RGB(96, 245, 103);
+	background-color: RGB(96, 245, 103);     /* Plusieurs type d'écriture pour les couleurs le rgb en est une */
 }
 
 #experience{
 	margin-left: 55px;
 	margin-bottom: 20px;
-	padding-bottom: 75px;
+	padding-bottom: 80px;    /* Décale la marge intérieure vers le bas */
 	width: 600px;
 	height: 410px;
 	background-color: RGB(241, 211, 79);
 }
 
 #information{
+	padding-bottom: 2px;	
 	margin-top: 50px;
 	width: 600px;
 	height: 300px;
@@ -164,33 +152,39 @@ article {
 }
 
 .image-contact{
-
-	border: 2px dashed white;
+	margin-right: 20px;
+	border: 2px dashed white;     /* Les bordures seront fait avec des tirets */
         height: 5%;
         width: 5%;
-
-}
-
-.titre-article {
-
-	text-align:center;
 }
 
 #small {
-
 	font-size: 20px;	
 }
 
+.titre-article,.sous-titre-article{
+	text-align: center;
+}
+
 .titre-article {
-	color: #EB0000
+	color: #EB0000;
 }
 
 thead {
-	text-decoration: underline black;
+	text-decoration: underline black;     /* Le texte sera souligné en noir */
 }
 
 
 .YesWeWeb {
 	text-decoration: none;
 	color: rgb(255, 140, 0);
+}
+
+.info-perso {
+	font-size: large;
+	text-align: center;
+}
+
+#dev-web::first-letter {
+	font-size: 2rem;
 }
